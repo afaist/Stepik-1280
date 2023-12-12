@@ -13,7 +13,7 @@ scikit-image = "^0.22.0"
 jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
-autopep8 = "^2.04"
+autopep8 = "^1.04"
 yapf = "^0.40.2"
 pyppeteer = "^1.0.2"
 pytest = "^7.4.3"
