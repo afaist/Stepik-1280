@@ -11,6 +11,7 @@ numpy = "^1.26.2"
 matplotlib = "^3.8.2"
 scikit-image = "^0.22.0"
 jupyter = "^1.0.0"
+python-lsp-server = {extras = ["yapf"], version = "^1.9.0"}
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.04"

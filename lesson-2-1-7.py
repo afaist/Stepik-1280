@@ -10,6 +10,6 @@ img = imread("img.png")
 height, width = img.shape[:2]
 top = (height - 7) // 2
 left = (width - 15) // 2
-img[top : top + 7, left : left + 15] = [255, 192, 203]
+img[top: top + 7, left: left + 15] = [255, 192, 203]
 
 imsave("out_img.png", img)
